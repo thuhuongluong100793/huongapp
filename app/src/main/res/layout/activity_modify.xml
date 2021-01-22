@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txtModKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/key"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:visibility="gone"
+            android:maxLines="1" />
+        <EditText
+            android:id="@+id/txtModName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/teal"
+            android:text="@string/update"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnDelete"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/delete"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnBack"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/orange"
+            android:text="@string/back"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="onClickBtnBack"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

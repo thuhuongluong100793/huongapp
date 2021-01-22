@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="add">Add new</string>
+    <string name="modify">Modify</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="key">Key</string>
+    <string name="name">Name</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="reload">Reload</string>
+</resources>

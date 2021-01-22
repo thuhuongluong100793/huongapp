@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "834101359366",
+    "firebase_url": "https://project-of-ltthuong-default-rtdb.firebaseio.com",
+    "project_id": "project-of-ltthuong",
+    "storage_bucket": "project-of-ltthuong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834101359366:android:8bf6667afc65bed5172487",
+        "android_client_info": {
+          "package_name": "com.ltthuong.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834101359366-le6mhfrcj3ei4u6mkk8tmr7r7t53anub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCagjke4eZR5Wps-XnM1UqrnJ8cRtzjDNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834101359366-le6mhfrcj3ei4u6mkk8tmr7r7t53anub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834101359366:android:12de7eaabba07d1e172487",
+        "android_client_info": {
+          "package_name": "com.ltthuong.note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834101359366-le6mhfrcj3ei4u6mkk8tmr7r7t53anub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCagjke4eZR5Wps-XnM1UqrnJ8cRtzjDNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834101359366-le6mhfrcj3ei4u6mkk8tmr7r7t53anub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
